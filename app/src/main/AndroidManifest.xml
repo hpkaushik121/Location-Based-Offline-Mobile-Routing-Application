@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.example.sourabh"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="9"
+    android:versionName="1.9">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- necessary to easily download maps via wifi -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Location API methods required permission -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_geoff"
+        android:label="Geoff v1.2"
+        android:logo="@drawable/icon_geoff"
+        android:theme="@style/MYAppTheme" >
+        <activity
+            android:name="com.example.sourabh.activities.MainActivity"
+            android:label="Geoff v1.2"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyAppThemeActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.sourabh.activities.MapActivity"
+            android:label="Geoff v1.2"
+            android:screenOrientation="portrait"
+            android:theme="@style/MYAppTheme" >
+        </activity>
+        <activity
+            android:name="com.example.sourabh.activities.DownloadMapActivity"
+            android:label="Geoff v1.2"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyAppThemeActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.sourabh.activities.Analytics"
+            android:label="@string/title_activity_analytics"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyAppThemeActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.sourabh.activities.Permission"
+            android:label="@string/settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyAppThemeActionBar">
+        </activity>
+        <activity
+            android:name="com.example.sourabh.activities.GeocodeActivity"
+            android:label="@string/search_location"
+            android:theme="@style/MYAppTheme" >
+        </activity>
+        <activity
+            android:name="com.example.sourabh.activities.AboutActivity"
+            android:label=""
+            android:theme="@style/MYAppTheme" >
+        </activity>
+    </application>
+
+</manifest>
