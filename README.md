@@ -7,5 +7,5 @@ using dijkstra algorithm it calculates the path from your specified location to 
 
 Demo of the <a href="https://drive.google.com/file/d/1zhzpG7ela_GMLUx6us00Qvo_BFZ45THR/view?usp=sharing">application</a>
 
-INDIA MAP: <a href="https://drive.google.com/file/d/1m9AHI1Fa_fOJqjswF4YTneUwjAeqQOlZ/view?usp=sharing">application</a>
+INDIA MAP: <a href="https://drive.google.com/file/d/1m9AHI1Fa_fOJqjswF4YTneUwjAeqQOlZ/view?usp=sharing">Download MAP</a>
 
